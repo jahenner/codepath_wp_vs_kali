@@ -12,3 +12,4 @@ The --url takes in the URL of the WordPress blog to scan. The --random-user-agen
 
 We see that we find 94 vulnerabilities that were identified (we are using an older version of WordPress for learning purposes)
 
+Looking at the login page for WordPress we notice that the server is giving us too much information. We know when a username is incorrect and when a username exists in the database.
