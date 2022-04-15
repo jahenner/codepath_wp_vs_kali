@@ -14,6 +14,8 @@ We see that we find 94 vulnerabilities that were identified (we are using an old
 
 Looking at the login page for WordPress we notice that the server is giving us too much information. We know when a username is incorrect and when a username exists in the database.
 
+![ezgif com-gif-maker (14)](https://user-images.githubusercontent.com/76822904/163634984-cd2633b1-f6ba-48a5-bf89-4c33d7951067.gif)
+
 By running another wpscan to enumerate(-e) usernames (u) and check vulnerable plug-ins (-vp) we find a few users.
 
 ![ezgif com-gif-maker (12)](https://user-images.githubusercontent.com/76822904/163634276-71131bab-3b0c-4e40-9b67-f3c3a798e278.gif)
